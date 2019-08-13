@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/PycharmProjects/Modules/.idea/Modules.iml" filepath="$USER_HOME$/PycharmProjects/Modules/.idea/Modules.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/PythonExercicios/.idea/PythonExercicios.iml" filepath="$USER_HOME$/PycharmProjects/PythonExercicios/.idea/PythonExercicios.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/User-Registrator.iml" filepath="$PROJECT_DIR$/.idea/User-Registrator.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/pythonteste/.idea/pythonteste.iml" filepath="$USER_HOME$/PycharmProjects/pythonteste/.idea/pythonteste.iml" />
     </modules>
   </component>
 </project>
