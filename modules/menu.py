@@ -1,4 +1,6 @@
 import modules.data as dv
+import modules.register as rg
+import modules.listusers as lu
 
 
 def menu():
@@ -10,9 +12,9 @@ def menu():
         print("\033[33m3 - \033[m\033[34mQuit\033[m")
         choice = dv.choose()
         if choice == 1:
-            print("List registered users")
+            lu.listUsers()
         elif choice == 2:
-            print("Register new user:")
+            rg.register()
         else:
             break
     dv.titulo("Thanks for using our software! Have a good one!")
