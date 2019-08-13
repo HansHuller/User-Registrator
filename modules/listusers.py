@@ -10,6 +10,3 @@ def listUsers():
         result = file.read()
         dv.titulo("Registered Users")
     return print(result)
-
-
-listUsers()

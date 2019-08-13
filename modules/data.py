@@ -8,7 +8,7 @@ def texto(frase):
     print(f"{frase.upper():<40}")
 
 
-def choose(text="What's your choice? ", errormsg="Invalid option! Try Again!"):
+def choose(text="\033[33mWhat's your choice?\033[m ", errormsg="Invalid option! Try Again!"):
     choice = " "
     while not isinstance(choice, int):
         choice = input(f"{text:<40}")

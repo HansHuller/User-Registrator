@@ -10,5 +10,3 @@ def register():
     else:
         print("Já existe arquivo")
 
-
-register()
