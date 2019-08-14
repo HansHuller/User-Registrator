@@ -4,13 +4,13 @@ import modules.data as dv
 def register():
     while True:
         try:
-            file = open("G:\\Hans Documents\\dev\\User-Registrator\\users.txt")
+            file = open((pathlib.Path(__file__).parents[1] /"users.txt"))
         except Exception:
-            file = open("G:\\Hans Documents\\dev\\User-Registrator\\users.txt", "w")
+            file = open((pathlib.Path(__file__).parents[1] /"users.txt"), "w")
             #print("Arquivo Criado")
             path = 1
         else:
-            file = open("G:\\Hans Documents\\dev\\User-Registrator\\users.txt", "a")
+            file = open((pathlib.Path(__file__).parents[1] /"users.txt"), "a")
             #print("Já existe arquivo")
             path = 2
         finally:

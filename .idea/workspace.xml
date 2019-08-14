@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d1a4b36-e283-469b-aa92-95de755b8c76" name="Default Changelist" comment="" />
+    <list default="true" id="6d1a4b36-e283-469b-aa92-95de755b8c76" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/modules/listusers.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/listusers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/register.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/register.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +13,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UserRegistrator.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/register.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/listusers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="68" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,10 +61,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/modules/list.py" />
         <option value="$PROJECT_DIR$/modules/menu.py" />
-        <option value="$PROJECT_DIR$/users.txt" />
         <option value="$PROJECT_DIR$/UserRegistrator.py" />
-        <option value="$PROJECT_DIR$/modules/listusers.py" />
         <option value="$PROJECT_DIR$/modules/data.py" />
+        <option value="$PROJECT_DIR$/users.txt" />
+        <option value="$PROJECT_DIR$/modules/listusers.py" />
         <option value="$PROJECT_DIR$/modules/register.py" />
       </list>
     </option>
@@ -94,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.UserRegistrator">
+  <component name="RunManager" selected="Python.listusers">
     <configuration name="UserRegistrator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="User-Registrator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,8 +226,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.UserRegistrator" />
         <item itemvalue="Python.listusers" />
+        <item itemvalue="Python.UserRegistrator" />
         <item itemvalue="Python.data" />
         <item itemvalue="Python.register" />
         <item itemvalue="Python.ex103 FUNÇÃO C RETURN ficha jogador" />
@@ -225,6 +249,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -293,13 +318,6 @@
     <entry file="file://$USER_HOME$/PycharmProjects/pythonteste/aula11a Format console.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/listusers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
@@ -323,15 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="20">
+          <caret line="1" column="68" lean-forward="true" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -339,6 +350,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/listusers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="68" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
         </state>
       </provider>
     </entry>
